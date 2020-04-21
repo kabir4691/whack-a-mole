@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 600px;
+  height: 600px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url('./images/mole.jpeg');
+  background-size: cover;
+}
